@@ -2,6 +2,10 @@
   "name": "smartc-compiler-cli",
   "version": "0.1.0",
   "description": "CLI compiler for smart contracts written in SmartC",
+  "author": "ohager",
+  "contributors": [
+    "Wekuz <wekuz@duck.com> (https://wekuz.github.io)"
+  ],
   "homepage": "https://github.com/ohager/smartc-compiler-cli",
   "module": "index.ts",
   "type": "module",
