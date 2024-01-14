@@ -5,7 +5,9 @@ import * as fs from "node:fs/promises";
 async function main()
 {
     const program = new Command();
-    program.name("smartc-compiler-cli").description("CLI SmartC compiler");
+    program.name("smartc-compiler-cli")
+        .description("CLI SmartC compiler")
+        .version('0.1.0', '-v, --version', 'output the current version');
     program.requiredOption("-f, --file <filepath>", "path to a file to compile")
         .option("--format [asm|byte]", "specify output format", "asm");
     program.parse();
