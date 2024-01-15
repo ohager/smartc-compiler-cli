@@ -1,0 +1,29 @@
+{
+  "name": "smartc-compiler-cli",
+  "version": "0.1.0",
+  "description": "CLI compiler for smart contracts written in SmartC",
+  "author": "ohager",
+  "contributors": [
+    "Wekuz <wekuz@duck.com> (https://wekuz.github.io)"
+  ],
+  "homepage": "https://github.com/ohager/smartc-compiler-cli",
+  "module": "index.ts",
+  "type": "module",
+  "keywords": [
+    "compiler",
+    "cli",
+    "signum",
+    "blockchain",
+    "smartc"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "smartc-signum-compiler": "^2.1.1"
+  }
+}
